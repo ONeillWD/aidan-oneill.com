@@ -1,0 +1,17 @@
+section#fixed-img{
+    background: url(./images/beach-clouds.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+}
+
+section#contact{
+    background: url(./images/turtle.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+}

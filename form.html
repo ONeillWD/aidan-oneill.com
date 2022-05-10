@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="https://formsubmit.co/hello@aidan-oneill.com" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea id="message" name="message" rows="4" placeholder="How can I help you?"></textarea>
+        <button type="submit">Send</button>
+   </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <form onsubmit="sendEmail(); reset();">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="phone" id="phone" placeholder="Phone no.">
+            <textarea id="messsage" rows="4" placeholder="How can I help you?"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!--JS EMAIL FORM CDN-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--JS CONTACT FORM FUNCTIONS-->
+    <script>
+        function sendEmail() {
+            Email.send({
+                SecureToken : "63a350fc-2af7-41ee-8238-5a2ca4c0eb09",
+                To : 'hello@aidan-oneill.com',
+                From : document.getElementByID("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone: " + document.getElementById("phone").value
+                    + "<br> Message: " + document.getElementById("message").value
+            }).then(
+            message => alert("Message Sent Successfully!")
+            );
+        }
+    </script>
+    
+
+
+
+
+</body>
+</html>

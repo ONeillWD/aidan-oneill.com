@@ -77,6 +77,7 @@ form button:hover {
 }
 #nav-logo {
     width: 45px;
+    height: 45px;
     animation: rotation 60s infinite linear;
     box-shadow: #000;
 }
@@ -90,6 +91,10 @@ form button:hover {
   }
 #intro-text {
     padding-top: 55px;
+}
+#home-img {
+    max-width: 900px;
+    max-height: 900px;
 }
 #prof-img-2 {
     display: none;
@@ -342,6 +347,12 @@ svg.bi-github {
     }
     #mobile {
         font-size: 1rem !important;
+    }
+    .form-container {
+        margin-top: 0;
+    }
+    #contact-info {
+        padding-bottom: 0;
     }
 }
 @media screen and (min-width: 992px) {

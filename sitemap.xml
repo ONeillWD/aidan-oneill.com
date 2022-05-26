@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://aidan-oneill.com/</loc>
+  <lastmod>2022-05-04T19:20:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/index.html</loc>
+  <lastmod>2022-05-04T19:20:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/portfolio.html</loc>
+  <lastmod>2022-05-04T19:51:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/about.html</loc>
+  <lastmod>2022-05-04T19:20:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/contact.html</loc>
+  <lastmod>2022-05-04T19:51:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/portfolio-work/huddle-landing-page-main/index.html</loc>
+  <lastmod>2022-04-12T17:58:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/portfolio-work/pleasure-island-travel-website/index.html</loc>
+  <lastmod>2022-04-12T19:32:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/portfolio-work/single-price-grid-component-main/index.html</loc>
+  <lastmod>2020-12-25T20:22:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/portfolio-work/four-card-feature-section-main/index.html</loc>
+  <lastmod>2020-12-29T17:15:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/portfolio-work/marketing/pr-release.pdf</loc>
+  <lastmod>2022-04-25T20:32:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aidan-oneill.com/ONeill-Resume.pdf</loc>
+  <lastmod>2022-03-04T18:51:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
